@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!--navar-->
+      <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">
+          <a href="https://namratauniversal.com/">
+            <img src="./img/mainlogo.png" alt="main-Logo" loading="lazy" />
+          </a>
+        </div>
+
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+            <li><a href="/">HOME</a></li>
+            <li><a href="/">INTERNSHIP</a></li>
+
+            <li class="services">
+              <a href="#">TRAINING & DEVELOPMENT</a>
+
+              <!-- DROPDOWN MENU -->
+              <ul class="dropdown">
+                <li><a href="#">Technologies</a></li>
+                <li><a href="#">Digital Marketing</a></li>
+                <li><a href="#">SEO</a></li>
+              </ul>
+            </li>
+
+            <li class="services">
+              <a href="#">PAGES</a>
+
+              <!-- DROPDOWN MENU -->
+              <ul class="dropdown dropdown_2">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Team Members</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Skills</a></li>
+              </ul>
+            </li>
+
+            <li><a href="/">ABOUT</a></li>
+            <li><a href="/">Contact</a></li>
+            <li><a href="/">BLOG</a></li>
+            <li><a href="/">PAY</a></li>
+          </div>
+        </ul>
+      </nav>
+
+      <!--video element-->
+
+      <div class="hero_sec">
+        <video
+          src="/img/Namrata_video.mp4"
+          muted
+          loop
+          autoplay
+          class="video"
+        ></video>
+      </div>
+
+      <!--about -->
+
+      <div class="about_container container_about">
+        <div class="about_head" id="head">
+          <h2>About us</h2>
+          <p>
+            At Namrata Universal We Deliver With Focus On Quality, Integrity
+            <br />
+            And Long Term Relation. We have experienced professionals who <br />
+            understand that IT services is changing, and are true partners who
+            <br />
+            care about your success.
+          </p>
+          <span class="box" id="box1"></span>
+        </div>
+
+        <!--about image and card section -->
+
+        <div class="img" id="img_1">
+          <img
+            src="./img/about_img.jpg"
+            alt="this is about image"
+            loading="lazy"
+          />
+          <div class="content" id="about_content">
+            <h3>Welcome to the World of Namrata Universal</h3>
+            <p>
+              Trusted by the world's best organizations, for 12 years and
+              running, it has been delivering smiles to hundreds of IT advisors,
+              developers, users, and business owners. Easy solutions for all
+              difficult IT problems to ensure high availability.
+            </p>
+            <p>
+              Our biggest strength is our <strong>Global Reach</strong>. Our
+              ability to cater to any business segments & needs. Our experience
+              enables us create unique products. High volume of our work makes
+              us provide value added services with wallet friendly charges.
+              Strong ground support and extensive network keeps us always a step
+              a head. We are always on Toes and this attitude has given us a
+              strong presence in Indian Subcontinent.
+            </p>
+          </div>
+        </div>
+
+        <!-- our stroy and our goal css -->
+
+        <div class="container_sg" id="container_g">
+          <div class="image_con" id="image_c">
+            <img
+              src="./img/about-story.jpg"
+              alt="this is about image"
+              loading="lazy"
+            />
+            <div class="content_data" id="con_data">
+              <h3>Our Story</h3>
+              <p>
+                Namrata Group has been serving clients in diverse fields for
+                over 14 years through
+                <strong>
+                  Namrata Health Care Pvt. Ltd, Namrata Wellness, Namrata Store,
+                  Sylister Health Care Pvt. Ltd and Jingle Holiday Bazar Pvt.
+                  Ltd.</strong
+                >
+                Our objective is to take the business of our customers forward
+                through our products and services. The Namrata Universal is the
+                complete IT Solution Company and we welcome you to the world of
+                Namrata Universal.
+              </p>
+            </div>
+          </div>
+
+          <div class="image_con" id="image_c">
+            <img
+              src="./img/about-goal.jpg"
+              alt="this is about image"
+              loading="lazy"
+            />
+            <div class="content_data" id="con_data">
+              <h3>Our Goal</h3>
+              <p>
+                Improve Efficiency And Provide Better Experience By Our IT
+                Solutions!
+              </p>
+              <p>
+                Trusted by the world's best organizations, for 11 years and
+                running, it has been delivering smiles to hundreds of IT
+                advisors, developers, users, and business owners. Easy solutions
+                for all difficult IT problems to ensure high availability. Like
+                <strong
+                  >Specific, Measureable, Achievable, Realistic,
+                  Time-bound.</strong
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- services section -->
+
+      <div class="container_services" id="container_ser">
+        <div class="services_head" id="services_h">
+          <h2>Services</h2>
+          <p>
+            Nationwide Service, Local Expertise Offer The Latest Software And
+            <br />Solutions To Our Customers!
+          </p>
+          <span class="box_one" id="box1"></span>
+        </div>
+
+        <!-- carr container section  -->
+
+        <div class="card_container" id="card_con_mob">
+          <div class="card" id="card_mobile">
+            <img
+              src="./img/business_development.jpeg"
+              alt="business development"
+              loading="lazy"
+            />
+            <h2>Business Portal Development</h2>
+            <p>
+              At Namrata Universal, we offer mobile-compliant Business Portal
+              Development services leveraging a plethora of frameworks including
+              Drupal, WordPress, Magento, AngularJS and much more.
+            </p>
+          </div>
+          <div class="card" id="card_mobile">
+            <img
+              src="./img/mobile_application.jpeg"
+              alt="business development"
+              loading="lazy"
+            />
+            <h2>Mobile Application Development</h2>
+            <p>
+              We have designed and developed Android apps in categories, and
+              productivity, shopping, social messaging, gaming and
+              entertainment, news and publishing and so on..
+            </p>
+          </div>
+          <div class="card" id="card_mobile">
+            <img
+              src="./img/business_development.jpeg"
+              alt="business development"
+              loading="lazy"
+            />
+            <h2>Website Development</h2>
+            <p>
+              We create websites that appeal to your sense of style, with
+              intuitive layouts and navigation. We also ensure that your website
+              is a search engine friendly so that it attracts customers and
+              sales.
+            </p>
+          </div>
+          <div class="card" id="card_mobile"> 
+            <img
+              src="./img/business_development.jpeg"
+              alt="business development"
+              loading="lazy"
+            />
+            <h2>Digital Marketing</h2>
+            <p>
+              Digital marketing connect customers using internet and many types
+              of digital platform such as: Search Engines, Websites, Social
+              Media Marketing, Email Marketing, Mobile apps, Text messaging and
+              Online promoting.
+            </p>
+          </div>
+        </div>
+
+        <!-- services card section two  -->
+
+        <div class="card_container" id="card_con_mob">
+          <div class="card" id="card_mobile">
+            <img
+              src="./img/custom_dev.jpeg"
+              alt="business development"
+              loading="lazy"
+            />
+            <h2>Custom Software</h2>
+            <p>
+              Custom software development is the process of designing, creating, deploying and maintaining software for a specific set of users, functions. We offer quality and valuable price in our software and services without sacrificing quality.
+            </p>
+          </div>
+          <div class="card" id="card_mobile">
+            <img
+              src="./img/graphic_d.jpeg"
+              alt="business development"
+              loading="lazy"
+            />
+            <h2>Graphic Designing</h2>
+            <p>
+              Graphic design is the most common way of making visual content. The specialty of visual communicate is fundamental, especially for brands looking to connect with their target audience, and graphic design is the perfect solution.
+            </p>
+          </div>
+          <div class="card" id="card_mobile">
+            <img
+              src="./img/app_design.jpeg"
+              alt="business development"
+              loading="lazy"
+            />
+            <h2>App Design</h2>
+            <p>
+              Our experts cover an entire cycle of mobile app development, including business analysis, UX/UI design and development of your mobile application From ideation to final polish, our UX/UI design process.
+            </p>
+          </div>
+          <div class="card" id="card_mobile">
+            <img
+              src="./img/seo.png"
+              alt="business development"
+              loading="lazy"
+            />
+            <h2>SEO</h2>
+            <p>
+              SEO stands for search engine optimization. Namrata Universal Provides best Search engine optimization services. SEO is the most common way of doing whatever it takes to help a site or piece of content position higher on Google.
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <!-- call to action zone -->
+
+      <div class="action_container" id="action_mobile"> 
+        <!-- action head -->
+        <div class="services_head the_id mobile_action " id="services_h" >
+          <h2 >CALL TO ACTION</h2>
+          <p>
+            Please contact us for any queries.
+          </p>
+          <span class="box_one" id="box2" style="width:7%;"></span>
+        </div>
+        <!-- call us container -->
+
+        <div class="call_container" id="call_mobile_c">
+            <div class="call_con" id="mobile_C" >
+               CALL US @ 8506922777
+            </div>
+            <div class="call_con " id="mobile_C" >
+              CALL US @ 850692277
+            </div>
+            <div class="call_con" id="mobile_C">
+              CALL US @ 01
+            </div>
+        </div>
+
+        <!-- client data -->
+
+        <div class="client_data" id="client_d">
+            <div class="client" id="client_mobile">
+              <i class="fa-solid fa-user"></i>
+              <h1>56</h1>
+              <h3>Our Staffs</h3>
+            </div>
+            <div class="client" id="client_mobile">
+              <i class="fa-solid fa-users-between-lines"></i>
+              <h1>5200</h1>
+              <h3>Our Clients</h3>
+            </div>
+            <div class="client" id="client_mobile">
+              <i class="fa-solid fa-check"></i>
+              <h1>3811</h1>
+              <h3>Completed Projects</h3>
+            </div>
+            <div class="client" id="client_mobile">
+              <i class="fa-solid fa-chart-line"></i>
+              <h1>24*7</h1>
+              <h3>Support</h3>
+            </div>
+        </div>
+
+      </div>
+        
+      <!-- founder of namrata universal -->
+
+      <div class="founder_container" id="mobile_selector">
+          <!-- founder heading  -->
+        <div class="founder_head" id="mobile_found_head" >
+          <h2 >Main Team of Namrata Universal</h2>
+          <p>
+            Our main team comprises passionate individuals from various backgrounds. From creative designers to meticulous engineers and skilled marketers, we work together synergistically to deliver innovative solutions that exceed expectations.
+          </p>
+          <span class="founder_span" id="founder_1"></span>
+        </div>
+
+        <div class="founder_card_section" id="founder_card_moile">
+           <div class="founder_card" id="founder_card_mobile_secion">
+              <img src="./img/Preeti(Co-Founder).jpg" alt="preeti image" loading="lazy">
+              <h3>Preeti</h3>
+              <p>HRM & CO-FOUNDER</p>
+           </div>
+           <div class="founder_card" id="founder_card_mobile_secion">
+            <img src="./img/Saurabh-Mahawar(Co-Founder).jpg" alt="Saurabh-Mahawar image" loading="lazy">
+              <h3>Saurabh Mahawar</h3>
+              <p>CO-FOUNDER</p>
+           </div>
+           <div class="founder_card" id="founder_card_mobile_secion">
+            <img src="./img/Brajesh-Kumar-Jaiswal(CEO&FOUNDER).jpg" alt="preeti image" loading="lazy">
+              <h3>CEO & FOUNDER</h3>
+              <p>CEO & FOUNDER</p>
+           </div>
+
+
+        </div>
+
+         
+       
+      </div>
+         
+      <!-- review -->
+
+      <div class="review_container" id="review_mobile">
+
+        <div class="review_head" id="mobile_review" >
+          <h2 style="letter-spacing: 1.5px;">REVIEWS</h2>
+          <span class="review_span" id="review_1" ></span>
+        </div>
+
+        <div class="carousel-container">
+          <div class="carousel" id="carousel_1">
+              <div class="card">
+                <img src="/img/Anupam Kumar.jpg" alt="anupam image" loading="lazy">
+                <h3>Anupam Kumar</h3>
+                <h4 class="h4">BUSINESSMAN</h4>
+                <p>As a business owner, My goal was to find someone to create a web site that was contemporary, easy to use and attractive. I wanted to add intuitive features that would allow My customers to easily find us and learn about our services.</p>
+              </div>
+              <div class="card">
+                <img src="./img/Prateek Jaiswal.jpg" alt="prateek jaiswal" loading="lazy">
+                <h3>Prateek Jaiswal</h3>
+                <h4 class="h4">businessman</h4>
+                <p>they are amazing working for Website industry. Thanks a lot to provide us world class website in short on budget. I can Say you are top.</p>
+              </div>
+              <div class="card">
+                <img src="./img/Somya Gupta.jpg" alt="Somya Gupta" loading="lazy">
+                <h3>Somya Gupta</h3>
+                <h4 class="h4">businesswoman</h4>
+                <p>We hired NAMRATA UNIVERSAL for website Develop & Designing and the Rate was also in our budget. His ideas were new and fresh. Nice Website Design by NAMRATA UNIVERSAL</p>
+              </div>
+              <div class="card">
+                 <img src="./img/Amit Tamang.jpg" alt="amit" loading="lazy">
+                 <h3>Amit Tamang</h3>
+                 <h4 class="h4">businessman</h4>
+                 <p>
+                  Guys, this is best company for website designing. I am very grateful towards Namrata universal for your good work and support.. Thank you mam
+                </p>
+              </div>
+          </div>
+
+        </div> 
+
+
+
+      </div>
+      
+      <!-- our client -->
+
+      <div class="client_banner" id="banner_mobile">
+        <div class="services_head" id="services_h" >
+          <h2 >OUR CLIENTS</h2>
+          <span class="box_one" id="box2" style="width:7%;"></span>
+        </div>
+
+         <div class="banner_container">
+             <div class="banner_card">
+              <img src="./img/bmt.jpg" alt="bmt" loading="lazy">
+             </div>
+             <div class="banner_card">
+              <img src="./img/rusg.jpg" alt="bmt" loading="lazy">
+             </div>
+             <div class="banner_card">
+              <img src="./img/aditya.jpg" alt="bmt" loading="lazy">
+             </div>
+             <div class="banner_card">
+              <img src="./img/minds_ias.jpg" alt="bmt" loading="lazy">
+             </div>
+             <div class="banner_card">
+              <img src="./img/hitect.png" alt="bmt" loading="lazy">
+             </div>
+             <div class="banner_card">
+              <img src="./img/aba.png" alt="bmt" loading="lazy">
+             </div>
+         </div>        
+      </div>
+
+      <!-- footer -->
+
+      <div class="footer_con">
+         <div class="con_left">
+            <!-- about us -->
+            <div class="about">
+              <h2>ABOUT</h2>
+              <span id="line_2"></span>
+              <a href="#"><i class="fa-solid fa-angle-right"></i>Home</a>
+              <a href="#"><i class="fa-solid fa-angle-right"></i>About Us</a>
+              <a href="#"><i class="fa-solid fa-angle-right"></i>Contact Us</a>
+              <a href="#"><i class="fa-solid fa-angle-right"></i>Client</a>
+              <a href="#"><i class="fa-solid fa-angle-right"></i>Portfolio</a>
+              <a href="#"><i class="fa-solid fa-angle-right"></i>Pricing</a>
+              <a href="#"><i class="fa-solid fa-angle-right"></i>Service</a>
+              <a href="#"><i class="fa-solid fa-angle-right"></i>Team</a>
+              <a href="#"><i class="fa-solid fa-angle-right"></i>Skill</a>
+            </div>
+
+            <!-- useful links -->
+
+            <div class="about">
+              <h2>USEFUL LINKS</h2>
+              <span class="line" id="line_1"></span>
+              <a href="#"><i class="fa-solid fa-angle-right"></i> Technology</a>
+              <a href="#"><i class="fa-solid fa-angle-right"></i>Digital Marketing</a>
+              <a href="#"><i class="fa-solid fa-angle-right"></i> SEO Service</a>
+              <a href="#"><i class="fa-solid fa-angle-right"></i> Privacy Policy</a>
+              <a href="#"><i class="fa-solid fa-angle-right"></i> Terms & Conditions </a>   
+              <a href="#"><i class="fa-solid fa-angle-right"></i> Refund Policy</a>
+            </div>
+
+             <!-- CONTACT US -->
+
+              <div class="contact_us">
+                <h2>CONTACT US</h2>
+              <span class="line"></span>
+                <div class="head_office">
+                  <h3>Head Office :</h3>
+                  <p>3C, A1 Sector 10, Noida
+                    Uttar Pradesh, India</p>
+                </div>
+
+                <div class="head_office">
+                  <h3>Branch Office :</h3>
+                  <p>A-50, Shalimar Garden Main Near
+                    New Seemapuri Depot Delhi NCR</p>
+                </div>
+
+                <p><strong>Phone: </strong>+918506922777, +918506944777</p>
+
+                <p><strong> Landline: </strong> 01203174973</p>
+
+              </div>
+
+         </div>
+         <div class="con_right">
+             <h2>SUBSCRIPTION</h2>
+             <span id="line_3"></span>
+             <h4>Join Our Newsletter</h4>
+             <p>Sign Up For Latest IT Resources, News And Insights From Namrata Universal!</p>
+             <div class="form"><input type="text" id="text"><input type="button" value="Subscribe"></div>
+             <p><strong>Email:-</strong>Email:-info@namratauniversal.com</p>
+             <p><strong>Email:-</strong>Email:-namratauniversal@gmail.com</p>
+             <button>PAY NOW!</button>
+         </div>
+      </div>
+
+       <!-- end of this container -->
+    </div>
+  </body>
+</html>
